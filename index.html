@@ -16,7 +16,7 @@
         header {
             background: #0a3d62;
             color: white;
-            padding: 20px;
+            padding: 25px;
             text-align: center;
         }
 
@@ -30,6 +30,19 @@
             width: 90%;
             max-width: 1100px;
             margin: auto;
+        }
+
+        .btn {
+            display: block;
+            width: 250px;
+            margin: 20px auto;
+            padding: 15px;
+            text-align: center;
+            background: #0a3d62;
+            color: white;
+            text-decoration: none;
+            border-radius: 10px;
+            font-size: 18px;
         }
 
         .galeria {
@@ -58,6 +71,14 @@
             height: 315px;
             border-radius: 10px;
         }
+
+        footer {
+            background: #0a3d62;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 50px;
+        }
     </style>
 </head>
 
@@ -69,9 +90,20 @@
 
 <div class="contenedor">
 
+    <!-- VIDEO -->
     <h2>Video de Presentación</h2>
-    <iframe src="https://www.youtube.com/embed/8ZgZP6FQ7wE" allowfullscreen></iframe>
+    <iframe src="https://www.youtube.com/embed/8ZgZP6FQ7wE?rel=0" allowfullscreen></iframe>
 
+    <!-- BOTONES -->
+    <a class="btn" href="https://wa.me/14699224818" target="_blank">📲 WhatsApp</a>
+    <a class="btn" href="https://www.paypal.com/paypalme/infoalarmatic" target="_blank">💳 Pagar Curso</a>
+
+    <!-- MANUALES -->
+    <h2>Manuales Descargables</h2>
+    <a class="btn" href="manual1.pdf" download>📘 Manual 1</a>
+    <a class="btn" href="manual2.pdf" download>📘 Manual 2</a>
+
+    <!-- GALERÍA -->
     <h2>Galería de Imágenes</h2>
     <div class="galeria">
         <img src="img/81JPUk1gNlL.jpg" alt="Imagen 1">
@@ -81,17 +113,32 @@
         <img src="img/rk2236bkf.main.jpg" alt="Imagen 5">
     </div>
 
+    <!-- MÓDULOS -->
     <div class="modulo">
         <h2>Módulo 1: DVR y NVR</h2>
-        <img src="img/hikvision-ids-7208hthi-m2s-2tb-5c6f520b-a4a9__13318.jpg" alt="DVR" style="width: 100%; margin-top: 20px;">
+        <p>Aprenderás a instalar, configurar y administrar sistemas de grabación profesional.</p>
+        <img src="img/hikvision-ids-7208hthi-m2s-2tb-5c6f520b-a4a9__13318.jpg" style="width: 100%; margin-top: 20px;">
     </div>
 
     <div class="modulo">
         <h2>Módulo 2: Cableado y Redes</h2>
-        <img src="img/cableqdo-estructurado-03.jpg" alt="Rack" style="width: 100%; margin-top: 20px;">
+        <p>Domina el cableado estructurado, racks, canalización y redes para CCTV.</p>
+        <img src="img/cableqdo-estructurado-03.jpg" style="width: 100%; margin-top: 20px;">
+    </div>
+
+    <!-- TESTIMONIOS -->
+    <div class="modulo">
+        <h2>Reseñas de Estudiantes</h2>
+        <p>⭐⭐⭐⭐⭐ “Aprendí más en este curso que en 2 años trabajando.”</p>
+        <p>⭐⭐⭐⭐⭐ “Explicación clara, práctica y profesional.”</p>
+        <p>⭐⭐⭐⭐⭐ “Ahora instalo cámaras y alarmas como negocio.”</p>
     </div>
 
 </div>
+
+<footer>
+    © 2024 Curso de Cámaras y Alarmas – infoalarmatic
+</footer>
 
 </body>
 </html>
